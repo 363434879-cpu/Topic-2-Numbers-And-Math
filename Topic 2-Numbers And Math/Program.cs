@@ -30,9 +30,19 @@
             Console.WriteLine("What is 3 + 2? " + (3 + 2));
             Console.WriteLine("What is 5 - 7? " + (5 - 7));
             Console.WriteLine("Oh, that's why it's " + (3 + 2 < 5 - 7));
+            Console.WriteLine("Press ENTER To Continue");
+            Console.ReadLine();
+            Console.Clear();
 
             //Programming Task:
+            Console.WriteLine("I will now calculate my pay");
+            Console.WriteLine("I earned 8 x 21");
+            double pay = 8 * 21;
+            Console.WriteLine(pay.ToString("C"));
+            Console.WriteLine(" I will now calculate my eggs");
+            Console.WriteLine(" 6/12");
+            Console.WriteLine(6.0/12);
 
-        } 
+        }
     }
 }
